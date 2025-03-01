@@ -60,7 +60,7 @@ export async function handleGrokRequest (req) {
     headers.delete('baggage');
 
 
-    console.log('Request Headers:', headers);
+    //console.log('Request Headers:', headers);
 
     try {
         const fetchResponse = await fetch(targetFullUrl.toString(), {

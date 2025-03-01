@@ -14,6 +14,7 @@
 ## Netlify部署 [推荐]
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tech-shrimp/grok-playground)
 点击部署按钮，登录Github账户即可
+免费分配域名，国内可直连。
 
 ## Deno部署
 
@@ -37,12 +38,12 @@
 3. 填入Account ID，与API Token
 4. Fork本项目，开启Github Action功能
 5. 部署，打开dash.cloudflare.com，查看部署后的worker
-6. 需要开梯子使用
+6. 需要开魔法上网
 
-
-#### 有用的话帮忙B站或者Youtube点个关注~
-[https://space.bilibili.com/316183842](https://space.bilibili.com/316183842)<br>
-[https://www.youtube.com/@Tech_Shrimp](https://www.youtube.com/@Tech_Shrimp)
+## 打赏
+#### 帮忙点点关注点点赞，谢谢啦~
+B站：[https://space.bilibili.com/316183842](https://space.bilibili.com/316183842)<br>
+Youtube: [https://www.youtube.com/@Tech_Shrimp](https://www.youtube.com/@Tech_Shrimp)
 
 ## 本地调试（Deno）
 

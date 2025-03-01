@@ -10,6 +10,9 @@
     if (filePath === '/' || filePath === '/index.html') {
         return context.rewrite('/static/index.html');
     }
+    if ( filePath === '/how_to_get_cookie.png') {
+      return context.rewrite('/static/how_to_get_cookie.png');
+  }
     
     //处理grok请求
     return handleGrokRequest(req);

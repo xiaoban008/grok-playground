@@ -17,6 +17,15 @@ async function handleRequest(req: Request): Promise<Response> {
         },
       });
   }
+
+  if (filePath === '/how_to_get_cookie.png') {
+    const fullPath = `${Deno.cwd()}/src/static/how_to_get_cookie.png`;
+    const file = await Deno.readFile(fullPath);
+    return new Response(file, {
+      headers: {
+      },
+    });
+}
   
   //处理grok请求
   return handleGrokRequest(req);
