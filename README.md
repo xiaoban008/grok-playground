@@ -5,32 +5,15 @@
 [B站](https://space.bilibili.com/316183842)，[Youtube](https://www.youtube.com/@Tech_Shrimp)，抖音，公众号 全网同名。转载请注明作者。
 
 ## 项目简介
-#### Demo: [https://grok.210718.xyz](https://grok.210718.xyz)
+#### Demo: [https://ubiquitous-lolly-397934.netlify.app/](https://ubiquitous-lolly-397934.netlify.app/)
 10秒部署一个Grok3国内镜像网站，支持多账户聚合，单账户额度不够可秒换账号。
 不限地区/网络环境，打开即用，<b>适配了手机端</b>。
-使用Deno/Cloudflare Worker无服务器免费部署。
+使用Netlify/Deno/Cloudflare Worker无服务器免费部署。
 
 
-## Vercel部署
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tech-shrimp/grok-playground)
-
-## Cloudflare Worker 部署
-
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/tech-shrimp/grok-playground)
-
-1. 点击部署按钮
-2. 登录Cloudflare账号
-3. 填入Account ID，与API Token
-4. Fork本项目，开启Github Action功能
-5. 部署，打开dash.cloudflare.com，查看部署后的worker
-6. 国内使用需要绑定一个自定义域名
-   <details>
-   <summary>如图</summary>
-   
-   ![image](/docs/images/2.png)
-   </details>
-
+## Netlify部署 [推荐]
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tech-shrimp/grok-playground)
+点击部署按钮，登录Github账户即可
 
 ## Deno部署
 
@@ -41,18 +24,27 @@
 5. Entrypoint 填写 `src/deno_index.ts` 其他字段留空 
    <details>
    <summary>如图</summary>
-   
    ![image](/docs/images/1.png)
    </details>
 6. 点击 <b>Deploy Project</b>
 7. 部署成功后获得域名，点开即用。
+
+## Cloudflare Worker 部署
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/tech-shrimp/grok-playground)
+
+1. 点击部署按钮
+2. 登录Cloudflare账号
+3. 填入Account ID，与API Token
+4. Fork本项目，开启Github Action功能
+5. 部署，打开dash.cloudflare.com，查看部署后的worker
+6. 需要开梯子使用
 
 
 #### 有用的话帮忙B站或者Youtube点个关注~
 [https://space.bilibili.com/316183842](https://space.bilibili.com/316183842)<br>
 [https://www.youtube.com/@Tech_Shrimp](https://www.youtube.com/@Tech_Shrimp)
 
-## 本地调试
+## 本地调试（Deno）
 
 Windows 安装Deno:
 > irm https://deno.land/install.ps1 | iex
@@ -64,3 +56,12 @@ Mac/Linux 安装Deno:
 
 >cd 项目目录 <br>
 >deno run start
+
+
+## 本地调试（Netlify）
+
+1. 安装NodeJs
+2. npm install -g netlify-cli
+3. cd 项目根目录
+4. netlify login
+5. netlify dev
