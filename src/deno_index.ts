@@ -5,6 +5,10 @@ async function handleRequest(req: Request): Promise<Response> {
   const url = new URL(req.url);
   console.log('Request URL:', req.url);
 
+  const response = await fetch("https://api.ipify.org?format=json");
+  const data = await response.json();
+  console.log("Public IP Address:", data.ip);
+
   // 处理主页面
   const filePath = url.pathname;
   console.log('filePath:', filePath);
