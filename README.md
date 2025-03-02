@@ -1,5 +1,4 @@
-# Grok3 PlayGround 
-# Grok3 2.0 游乐场
+# Grok3 游乐场
 
 ### 作者：技术爬爬虾
 [B站](https://space.bilibili.com/316183842)，[Youtube](https://www.youtube.com/@Tech_Shrimp)，抖音，公众号 全网同名。转载请注明作者。
@@ -12,7 +11,7 @@
 10秒部署一个Grok3国内镜像网站，支持多账户聚合，单账户额度不够可秒换账号。
 不限地区/网络环境，打开即用，适配手机端。
 支持Netlify/Deno/Cloudflare Worker无服务器免费部署。
-<b>建议用服务器部署，最近Grok加强了风控，使用IP干净的云服务部署最保险<b>
+<b>建议用服务器部署，最近Grok加强了风控，使用IP干净的云服务部署最保险</b>
 无服务器部署可能因为IP不干净被Cloudflare盾,（如果被盾，尝试刷新几次页面换个IP）
 
 ## 服务器部署[推荐]
