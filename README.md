@@ -5,15 +5,18 @@
 [B站](https://space.bilibili.com/316183842)，[Youtube](https://www.youtube.com/@Tech_Shrimp)，抖音，公众号 全网同名。转载请注明作者。
 
 ## 项目简介
-#### Demo: [https://ubiquitous-lolly-397934.netlify.app/](https://ubiquitous-lolly-397934.netlify.app/)
+#### Demo（服务器部署）: [https://grok.tech-shrimp.com/](https://grok.tech-shrimp.com/)
+#### Demo（Deno部署）: [https://grok-play.deno.dev/](https://grok-play.deno.dev/)
+#### Demo（Netlify部署）: [https://ubiquitous-lolly-397934.netlify.app/](https://ubiquitous-lolly-397934.netlify.app/)
+
 10秒部署一个Grok3国内镜像网站，支持多账户聚合，单账户额度不够可秒换账号。
-不限地区/网络环境，打开即用，<b>适配了手机端</b>。
+不限地区/网络环境，打开即用，适配手机端。
 支持Netlify/Deno/Cloudflare Worker无服务器免费部署。
-建议用服务器部署，最近Grok加强了风控，使用IP干净的云服务部署最保险。 
-无服务器部署可能因为IP不干净被Cloudflare阻断。
+<b>建议用服务器部署，最近Grok加强了风控，使用IP干净的云服务部署最保险<b>
+无服务器部署可能因为IP不干净被Cloudflare盾,（如果被盾，尝试刷新几次页面换个IP）
 
 ## 服务器部署[推荐]
-0. 准备一台海外IP的云服务器
+0. 准备一台海外IP的云服务器，香港也可以
 1. git clone https://github.com/tech-shrimp/grok-playground
 2. (Ubuntu服务器需要先安装unzip:)<br> sudo apt-get install unzip -y
 3. 安装Deno:<br> curl -fsSL https://deno.land/install.sh | sh
@@ -49,7 +52,7 @@
 3. 填入Account ID，与API Token
 4. Fork本项目，开启Github Action功能
 5. 部署，打开dash.cloudflare.com，查看部署后的worker
-6. 需要开魔法上网
+6. 使用需要开魔法上网
 
 ## 打赏
 #### 帮忙点点关注点点赞，谢谢啦~
