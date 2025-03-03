@@ -24,7 +24,7 @@
 4. cd grok-playground
 5. sh deno_start.sh
 6. 默认使用服务器80端口，可以修改src/deno_index.ts改端口号
-6. 使用Cloudflare配置网站DNS+HTTPS（也可以自己配置HTTPS）
+7. 使用Cloudflare配置网站DNS+HTTPS（也可以自己配置HTTPS）
 
 
 ## Netlify部署
