@@ -17,7 +17,7 @@
 无服务器部署可能因为IP不干净被Cloudflare盾,（如果被盾，尝试刷新几次页面换个IP）
 
 ## 服务器部署[推荐]
-0. 准备一台海外IP的云服务器，香港也可以
+0. 准备一台海外IP的云服务器，香港也可以1
 1. git clone https://github.com/tech-shrimp/grok-playground
 2. (Ubuntu服务器需要先安装unzip:)<br> sudo apt-get install unzip -y
 3. 安装Deno:<br> curl -fsSL https://deno.land/install.sh | sh （安装后需重启shell）
